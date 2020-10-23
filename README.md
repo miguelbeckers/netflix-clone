@@ -1,2 +1,2 @@
-# Clone-Netflix
+# netflix-clone
  estudando ReactJS
