@@ -51,7 +51,6 @@ export default () => {
         {movieList.map((item, key)=>(
           <MovieRow key={key} title={item.title} itens={item.itens}/>
         ))}
-
       </section>
 
       <footer>
