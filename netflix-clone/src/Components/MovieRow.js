@@ -7,6 +7,7 @@ export default ({title, itens}) => {
             <h2>{title}</h2>
             <div className="movieRow--listArea">
                 <div className="movieRow--list">
+                    <div>{typeof itens}</div>
                     {itens.results.length > 0 && itens.results.map((item, key)=>(
                         <div className="movieRow--item">
                             <img key={key} src={`https://image.tmdb.org/t/p/w300${item.poster_path}`} alt={item.origina_title} />
